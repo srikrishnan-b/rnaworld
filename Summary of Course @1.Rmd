@@ -1,0 +1,34 @@
+---
+title: "Summary of course 1"
+author: "Srikrishnan"
+date: "3/18/2020"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Data Scientist's toolbox
+
+The course introduces us to **R Language** and **RStudio** along with the idea of *version control*. The important stuff related to version control are:  
+- Git  
+- Github  
+
+Git is the version control software and Github is its online interface.  
+
+### Markdown files  
+
+Another important new thing I learned is Markdown file. I use this markdown file to demonstrate how we can insert code chunk in a markdown file.
+
+
+
+
+```{r}
+print("Markdown files rule")
+```
+  
+  **Thanks!**
+
